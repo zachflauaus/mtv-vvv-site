@@ -17,6 +17,9 @@ server {
     {{TLS_CERT}}
     {{TLS_KEY}}
 
+	{vvv_tls_cert}
+	{vvv_tls_key}
+
     # Nginx rules for WordPress, rewrite rules, permalinks, etc
     include      /etc/nginx/nginx-wp-common.conf;
 }
